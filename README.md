@@ -18,5 +18,8 @@
 
 ## Todo list
 
+记录本仓库待完成事项，点击[这里](https://github.com/jiayuzhang128/Knowledge-Base/blob/master/todo/readme.md)查看
 
 ## Resources 学习资源
+
+记录各种有用的资源，点击[这里](https://github.com/jiayuzhang128/Knowledge-Base/blob/master/resources/readme.md)查看

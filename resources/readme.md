@@ -23,6 +23,7 @@
     - [:computer: Coding tools 编程工具](#computer-coding-tools-编程工具)
       - [Git](#git)
       - [Github](#github)
+        - [Profile](#profile)
       - [Vim](#vim)
 
 ## :mortar_board: 3D perception 三维感知
@@ -139,9 +140,15 @@ Markdown
 
 [GitHub 漫游指南](https://github.phodal.com/)
 
-[github-readme-stats 打造个性化主页](https://github.com/anuraghazra/github-readme-stats)
+##### Profile
 
+[:star: github-readme-stats 打造个性化主页 :star:](https://github.com/anuraghazra/github-readme-stats)
 
+[:star: awesome-github-profile-readme 优秀个人主页清单 :star:](https://github.com/abhisheknaiidu/awesome-github-profile-readme)
+
+[github-profile-views-counter 记录个人主页被浏览次数](https://github.com/antonkomarev/github-profile-views-counter)
+
+[github-profile-readme-generator 懒人必备-自动生成个人主页](https://github.com/rahuldkjain/github-profile-readme-generator)
 
 #### Vim
 

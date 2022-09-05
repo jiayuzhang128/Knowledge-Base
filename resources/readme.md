@@ -10,11 +10,15 @@
     - [SFM](#sfm)
     - [Structured light](#structured-light)
     - [ToF](#tof)
+    - [Monocular](#monocular)
+    - [Optical Flow](#optical-flow)
   - [:writing_hand: Writing 写作](#writing_hand-writing-写作)
     - [:framed_picture: Images 图像类](#framed_picture-images-图像类)
       - [Emoji](#emoji)
       - [Icon](#icon)
     - [:memo: Blog 博客](#memo-blog-博客)
+      - [Edit 编辑博客](#edit-编辑博客)
+      - [Personal blog 搭建个人博客](#personal-blog-搭建个人博客)
   - [:hammer_and_wrench: Tools 工具](#hammer_and_wrench-tools-工具)
     - [:computer: Coding tools 编程工具](#computer-coding-tools-编程工具)
       - [Git](#git)
@@ -22,6 +26,8 @@
       - [Vim](#vim)
 
 ## :mortar_board: 3D perception 三维感知
+
+[awesome-depth](https://github.com/scott89/awesome-depth)
 
 ### Stereo
 
@@ -57,7 +63,11 @@ AD-census
 
 
 
+### Monocular
 
+
+
+### Optical Flow
 
 
 
@@ -87,13 +97,17 @@ AD-census
 
 ### :memo: Blog 博客
 
+#### Edit 编辑博客
+
 Markdown
 
 [Typora Markdown编辑器，免费版](https://pan.baidu.com/s/1IDUOkDnLJA4YfjlN0l2cZQ?pwd=1111)
 
 [PicGo 图片上传工具](https://github.com/Molunerfinn/PicGo)
 
+#### Personal blog 搭建个人博客
 
+[个人博客样例-1](https://github.com/Gaohaoyang/gaohaoyang.github.io)
 
 
 
@@ -118,6 +132,8 @@ Markdown
 
 
 #### Github
+
+[:star: FastGithub Github加速神器 :star:](https://github.com/dotnetcore/FastGithub)
 
 [Github Docs](https://docs.github.com/cn/get-started)
 

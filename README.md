@@ -22,6 +22,7 @@
   - [Table of Contents 目录](#table-of-contents-目录)
   - [Todo list 待办事项](#todo-list-待办事项)
   - [Resources 学习资源](#resources-学习资源)
+  - [Note 学习笔记](#note-学习笔记)
 
 ## Todo list 待办事项
 
@@ -30,3 +31,7 @@
 ## Resources 学习资源
 
 记录各种有用的资源，点击[这里](https://github.com/jiayuzhang128/Knowledge-Base/blob/master/resources/readme.md)查看
+
+## Note 学习笔记
+
+记录我学习知识和技术的笔记，点击[这里](https://github.com/jiayuzhang128/Knowledge-Base/tree/master/note)查看

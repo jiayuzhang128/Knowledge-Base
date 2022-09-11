@@ -19,6 +19,9 @@
     - [:memo: Blog 博客](#memo-blog-博客)
       - [Edit 编辑博客](#edit-编辑博客)
       - [Personal blog 搭建个人博客](#personal-blog-搭建个人博客)
+  - [:man_technologist: Coding 编程](#man_technologist-coding-编程)
+    - [C++](#c)
+    - [python](#python)
   - [:hammer_and_wrench: Tools 工具](#hammer_and_wrench-tools-工具)
     - [:computer: Coding tools 编程工具](#computer-coding-tools-编程工具)
       - [Git](#git)
@@ -108,6 +111,8 @@ Markdown
 
 #### Personal blog 搭建个人博客
 
+[:star: 个人博客搭建教程视频 :star:](https://www.bilibili.com/video/BV1qD4y1z783?share_source=copy_web&vd_source=f5766ae3673b5d92307f29688f11ca21)
+[:star: 上面视频配套图文教程 :star:](https://blog.cuijiacai.com/blog-building/)
 [个人博客样例-1](https://github.com/Gaohaoyang/gaohaoyang.github.io)
 
 ## :man_technologist: Coding 编程

@@ -23,6 +23,7 @@
   - [Todo list 待办事项](#todo-list-待办事项)
   - [Resources 学习资源](#resources-学习资源)
   - [Note 学习笔记](#note-学习笔记)
+  - [Papers 论文阅读](#papers-论文阅读)
 
 ## Todo list 待办事项
 
@@ -35,3 +36,7 @@
 ## Note 学习笔记
 
 记录我学习知识和技术的笔记，点击[这里](https://github.com/jiayuzhang128/Knowledge-Base/tree/master/note)查看
+
+## Papers 论文阅读
+
+记录我重点阅读的论文，点击[这里]()查看

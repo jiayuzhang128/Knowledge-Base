@@ -7,3 +7,5 @@
 [PSMNet CVPR2018]()
 
 [Resolution asymmetric stereo CVPR2022](https://github.com/jiayuzhang128/Knowledge-Base/tree/master/papers/stereo/Resolution-asymmetric-stereo)
+
+[Visually Imbalanced Stereo Matching](https://github.com/jiayuzhang128/Knowledge-Base/tree/master/papers/stereo/Visually-Imbalanced-Stereo-Matching)

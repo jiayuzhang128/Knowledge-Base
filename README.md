@@ -14,16 +14,20 @@
 
 :five: 多输出，形成输入输出闭环
 
-:six: 经常复盘，不断补充
+:six: 经常复盘，不断补充</details>
 
-## Table of Contents 目录
+<details><summary>
+    <h2>Table of contents 目录</h2> (click to expand)
+    </summary>
 
 - [:rocket: Knowledge Base Navigation 知识库导航 :rocket:](#rocket-knowledge-base-navigation-知识库导航-rocket)
-  - [Table of Contents 目录](#table-of-contents-目录)
   - [Todo list 待办事项](#todo-list-待办事项)
   - [Resources 学习资源](#resources-学习资源)
   - [Note 学习笔记](#note-学习笔记)
   - [Papers 论文阅读](#papers-论文阅读)
+
+</details>
+
 
 ## Todo list 待办事项
 

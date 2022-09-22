@@ -17,7 +17,7 @@
 :six: 经常复盘，不断补充</details>
 
 <details><summary>
-    <h2>Table of contents 目录</h2> (click to expand)
+    <h2>Table of contents 目录</h2>  (click to expand)
     </summary>
 
 - [:rocket: Knowledge Base Navigation 知识库导航 :rocket:](#rocket-knowledge-base-navigation-知识库导航-rocket)

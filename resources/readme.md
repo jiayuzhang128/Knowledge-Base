@@ -1,9 +1,10 @@
 # Useful Resourses 有用的资源
 
-## Table of Contents 目录
+<details><summary>
+    <h2>Table of contents 目录</h2>  (click to expand)
+    </summary>
 
 - [Useful Resourses 有用的资源](#useful-resourses-有用的资源)
-  - [Table of Contents 目录](#table-of-contents-目录)
   - [:mortar_board: 3D perception 三维感知](#mortar_board-3d-perception-三维感知)
     - [Stereo](#stereo)
     - [MVS](#mvs)
@@ -28,6 +29,8 @@
       - [Github](#github)
         - [Profile](#profile)
       - [Vim](#vim)
+
+</details>
 
 ## :mortar_board: 3D perception 三维感知
 

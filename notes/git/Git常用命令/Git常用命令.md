@@ -6,6 +6,9 @@
   - [:books: Git日常开发命令速查](#books-git日常开发命令速查)
     - [:house: 本地](#house-本地)
     - [:cloud:远程](#cloud远程)
+  - [:: Git解决冲突](#-git解决冲突)
+    - [解决本地冲突](#解决本地冲突)
+    - [解决PR冲突](#解决pr冲突)
 ## :rocket: 简介
 
 <p align="center">
@@ -74,6 +77,83 @@
 |git push|将本地修改推送至远程仓库，没有参数时是将当前位置的分支提交到默认的远程地址|[Git 远程仓库5](https://learngitbranching.js.org/?locale=zh_CN)|
 |git push -f|强制推送，配合`git commit --amend`一起使用|
 |git push 别名/url 分支|将指定分支推送到指定远程地址|[ Git 远程仓库高级操作4](https://learngitbranching.js.org/?locale=zh_CN)|
+
+
+
+
+## :: Git解决冲突
+
+现在做如下假设：
+
++ 个人远程库 origin
+
++ 上游远程库 upstream
+
++ 主分支 master
+
++ 特征分支 feature
+
+### 解决本地冲突
+
+
+
+### 解决PR冲突
+
+[参考视频](https://www.bilibili.com/video/BV19Y4y1N7xP?share_source=copy_web&vd_source=f5766ae3673b5d92307f29688f11ca21)
+
+> 思想：先将冲突在本地解决，然后重新上传个人远程库，再向上有仓库提交PR
+
+1. 在本地拉取、合并上游仓库的最新提交
+
+2. 在本地解决冲突
+
+3. 重新添加本地库
+
+4. 将合并后的本地库推送至个人远程库
+
+5. 再次提交PR请求，此时就没有冲突了
+
+假设都是在主分支master下操作的，那么下面在`git bash`下进行一个示例：
+
+```bash
+# 1.查看远程仓库情况
+git remote -v
+# 2.添加个人远程库和上游仓库(已填加则忽略此步骤)
+git remote add origin xxx(origin的链接)
+git remote add upstream xxx(upstream的链接)
+# 3.将上游更新拉取、合并到本地，这里我们使用rebase方式合并
+git pull --rebase upstream master
+# 然后会显示有冲突，如下面的输出说明zhisuan_startup.py文件有冲突
+
+# From https://git.openi.org.cn/jiayu_neu/EfficientNetV1_MindSpore
+#  * branch            feature    -> FETCH_HEAD
+# Auto-merging zhisuan_startup.py
+# CONFLICT (add/add): Merge conflict in zhisuan_startup.py
+# error: could not apply 33c59a3... add zhisuan file
+# hint: Resolve all conflicts manually, mark them as resolved with
+# hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+# hint: You can instead skip this commit: run "git rebase --skip".
+# hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+# Could not apply 33c59a3... add zhisuan file
+
+# 4.解决冲突，像在本地解决冲突一样，我们使用vim（或者其他编辑器，如vscode）编辑冲突文件
+vim zhisuan_start.py
+# 5.手动解决冲突后，将修改后的文件添加到暂存区
+git add zhisuan_start.py
+# 6.继续合并进程
+git rebase --continue
+# 7.进入修改提交信息页面，可以保持不变，直接保存并退出，下面是vim下的命令
+:wq
+# 输出合并完成信息
+
+# 将合并后的内容推送至个人远程库
+git push -f origin master
+```
+
+经过以上的操作，PR冲突就得到了解决。
+
+
+
 
 
 
